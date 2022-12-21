@@ -1,19 +1,14 @@
-import React from 'react'
-
 const Card = (props) => {
-    console.log(props);
     return (
-        <>
-        <div>
-            <div>
-                <img src={props.src}  />
-            </div>
-            <div>
-                <p>{props.para}</p>
+        <div  >
+            <img src={props.src} />
+            <div >
+                <h2 > {props.title}</h2>
+                <button >Buy Now</button>
             </div>
         </div>
-           
-        </>
+
+
     )
 }
 
