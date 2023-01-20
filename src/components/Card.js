@@ -1,7 +1,8 @@
+import "./Cards.css"
 const Card = (props) => {
     return (
-        <div  >
-            <img src={props.src} />
+        <div className="container" >
+            <img className="image" src={props.src} />
             <div >
                 <h2 > {props.title}</h2>
                 <button >Buy Now</button>
