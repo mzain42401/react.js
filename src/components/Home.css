@@ -1,0 +1,43 @@
+.HomeDiv{
+    height: 610px;
+    width: 100%;
+    position: relative;
+    background-image: url('../../public/images/Bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.HomeCenter{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 450px;
+    width: 90%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.HomeContent1{
+    
+    height: 450px;
+    width: 30%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+
+}
+.HomeContent2{
+    height: 450px;
+    width: 30%;
+    border: 2px solid orange;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HomeContent3{
+    height: 450px;
+    width: 30%;
+    border: 2px solid black;
+}
